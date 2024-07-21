@@ -22,7 +22,7 @@ then
 fi
 
 # generate and display a password for each parameter
-# ${@} - expands stuff for all arguments
+# ${@} - stores all arguments. useful for when it is not clear how many arguments is required
 
 for USER in "${@}"
 do
